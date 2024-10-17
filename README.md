@@ -27,7 +27,7 @@ This plugin can be installed using [Lazy.nvim](https://github.com/folke/lazy.nvi
 
 ```lua
 {
-  "TuTaRdrgZ/norminette-lint.nvim",
+  "FtVim/norminette-lint.nvim",
   config = function()
     require("norminette-lint").setup({
       enable_on_start = false,  -- Default to false to improve startup performance
